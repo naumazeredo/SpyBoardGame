@@ -13,7 +13,6 @@ Todas as peças de terreno tem tamanho de 5x5 casas.
 O objetivo do jogo é adquirido escolhendo uma carta de um baralho de objetivos.
 Cada carta de objetivo explica açoes que devem ser feitas em salas específicas
 para que o objetivo seja válido.
-
 Concluido os objetivos, os espioes devem voltar à sala inicial para que obtenha
 a vitória.
 
