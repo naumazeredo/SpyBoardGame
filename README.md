@@ -17,9 +17,9 @@ Concluido os objetivos, os espioes devem voltar à sala inicial para que obtenha
 a vitória.
 
 O jogo se divide em dois turnos: o turno dos espioes e o turno dos guardas.
-No turno dos espioes, todos os jogadores hajem. A ordem com que os espioes hajem
+No turno dos espioes, todos os jogadores agem. A ordem com que os espioes hajem
 é definida pelos jogadores.
-No turno dos guardas, todos os guardas hajem.
+No turno dos guardas, todos os guardas agem.
 
 ####Corredor
 Cada corredor tem no mínimo duas saidas.
@@ -50,7 +50,8 @@ Os guardas sao unidades geradas dentro do terreno (podendo ser gerados tanto nos
 #####Alerta
 O guarda entra em alerta se um espiao estiver passado na sua visao no turno dos espioes (salvo o caso de o
 espiao estar andando furtivamente) ou se durante uma movimentaçao do guarda, um espiao entrar em sua visao.
-![Alert table](../img/alert.png?raw=true)
+
+![Alert table](/SpyBoardGame/img/alert.png?raw=true)
 
 #####Suspeita/Ruído
 O guarda gera um marcador de suspeita no terreno na casa seguinte a última casa na sua visao que um espiao passou.
