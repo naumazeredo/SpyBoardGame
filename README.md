@@ -50,6 +50,7 @@ Os guardas sao unidades geradas dentro do terreno (podendo ser gerados tanto nos
 #####Alerta
 O guarda entra em alerta se um espiao estiver passado na sua visao no turno dos espioes (salvo o caso de o
 espiao estar andando furtivamente) ou se durante uma movimentaçao do guarda, um espiao entrar em sua visao.
+![Alert table](/img/alert.png)
 
 #####Suspeita/Ruído
 O guarda gera um marcador de suspeita no terreno na casa seguinte a última casa na sua visao que um espiao passou.
