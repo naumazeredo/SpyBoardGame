@@ -42,33 +42,66 @@
 <h3>
 <a name="design" class="anchor" href="#design"><span class="octicon octicon-link"></span></a>Design</h3>
 
-<p>Todo jogador é um espiao.
-O terreno é formados por dois tipos de peças distintas: Corredor e Sala.
+<p>Todo jogador é um espiao.</p>
+
+<p>O terreno é formados por dois tipos de peças distintas: Corredor e Sala.
 Todas as peças de terreno tem tamanho de 5x5 casas.</p>
+
+<p>O objetivo do jogo é adquirido escolhendo uma carta de um baralho de objetivos.
+Cada carta de objetivo explica açoes que devem ser feitas em salas específicas
+para que o objetivo seja válido.
+Concluido os objetivos, os espioes devem voltar à sala inicial para que obtenha
+a vitória.</p>
+
+<p>O jogo se divide em dois turnos: o turno dos espioes e o turno dos guardas.
+No turno dos espioes, todos os jogadores hajem. A ordem com que os espioes hajem
+é definida pelos jogadores.
+No turno dos guardas, todos os guardas hajem.</p>
 
 <h4>
 <a name="corredor" class="anchor" href="#corredor"><span class="octicon octicon-link"></span></a>Corredor</h4>
 
 <p>Cada corredor tem no mínimo duas saidas.
-Os corredores poder dar acesso a salas.</p>
+Os corredores podem dar acesso a salas.</p>
 
 <h4>
 <a name="sala" class="anchor" href="#sala"><span class="octicon octicon-link"></span></a>Sala</h4>
 
 <h4>
-<a name="personagem" class="anchor" href="#personagem"><span class="octicon octicon-link"></span></a>Personagem</h4>
+<a name="espiao" class="anchor" href="#espiao"><span class="octicon octicon-link"></span></a>Espiao</h4>
+
+<p>Cada espiao pode usar, inicialmente, 5 custos de açao por turno.
+Cada vez que um espiao receber um ataque de um guarda, ele perde 1 (um) no seu custo total de açoes.</p>
 
 <h5>
 <a name="a%C3%A7oes" class="anchor" href="#a%C3%A7oes"><span class="octicon octicon-link"></span></a>Açoes</h5>
 
+<p>Cada açao possui um <em>Custo de Açao</em>.
+Toda vez que uma açao é efetuada, o <em>Custo de Açao</em> daquela açao é reduzida da quantidade
+de açoes do espiao que a efetuou.</p>
+
 <ul>
 <li>[1] Andar</li>
 <li>[2] Andar furtivo</li>
-<li>[1] Correr (o espiao anda duas casas e gera um marcador de ruído em cada casa)</li>
+<li>[2] Correr (o espiao anda três casas e gera um marcador de ruído em cada casa)</li>
 <li>[3] Nocautear</li>
 <li>[2] Arrombar (lockpick)</li>
 <li>[1] Fazer ruído</li>
-</ul>
+</ul><h4>
+<a name="guarda" class="anchor" href="#guarda"><span class="octicon octicon-link"></span></a>Guarda</h4>
+
+<p>Os guardas sao unidades geradas dentro do terreno (podendo ser gerados tanto nos corredores quanto nas salas).</p>
+
+<h5>
+<a name="alerta" class="anchor" href="#alerta"><span class="octicon octicon-link"></span></a>Alerta</h5>
+
+<p>O guarda entra em alerta se um espiao estiver passado na sua visao no turno dos espioes (salvo o caso de o
+espiao estar andando furtivamente) ou se durante uma movimentaçao do guarda, um espiao entrar em sua visao.</p>
+
+<h5>
+<a name="suspeitaru%C3%ADdo" class="anchor" href="#suspeitaru%C3%ADdo"><span class="octicon octicon-link"></span></a>Suspeita/Ruído</h5>
+
+<p>O guarda gera um marcador de suspeita no terreno na casa seguinte a última casa na sua visao que um espiao passou.</p>
       </section>
     </div>
 
