@@ -8,26 +8,18 @@ Boardgame, espionagem, coop, geraçao aleatória do terreno
 Todo jogador é um espiao.
 
 O terreno é formados por dois tipos de peças distintas: Corredor e Sala.
-
 Todas as peças de terreno tem tamanho de 5x5 casas.
 
-
-
 O objetivo do jogo é adquirido escolhendo uma carta de um baralho de objetivos.
-
 Cada carta de objetivo explica açoes que devem ser feitas em salas específicas
 para que o objetivo seja válido.
 
 Concluido os objetivos, os espioes devem voltar à sala inicial para que obtenha
 a vitória.
 
-
-
 O jogo se divide em dois turnos: o turno dos espioes e o turno dos guardas.
-
 No turno dos espioes, todos os jogadores agem. A ordem com que os espioes agem
 é definida pelos jogadores.
-
 No turno dos guardas, todos os guardas agem.
 
 ####Corredor
@@ -39,12 +31,10 @@ Os corredores podem dar acesso a salas.
 
 ####Espiao
 Cada espiao pode usar, inicialmente, 5 custos de açao por turno.
-
 Cada vez que um espiao receber um ataque de um guarda, ele perde 1 (um) no seu custo total de açoes.
 
 #####Açoes
 Cada açao possui um _Custo de Açao_.
-
 Toda vez que uma açao é efetuada, o _Custo de Açao_ daquela açao é reduzida da quantidade
 de açoes do espiao que a efetuou.
 
